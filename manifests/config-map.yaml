@@ -6,7 +6,7 @@ data:
   index.html: |
     <!DOCTYPE html>
     <html>
-      <body style="background-color: #{Background.Color}">
-        <h1>I've been deployed #{Octopus.Environment.Name}</h1>
+      <body style="background-color: #F00">
+        <h1>I've been deployed Development</h1>
       </body>
     </html>
