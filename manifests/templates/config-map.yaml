@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-index-html
+data:   
+  index.html: |
+    <!DOCTYPE html>
+    <html>
+      <body style="background-color: #{Background.Color}">
+        <h1>I've been deployed #{Octopus.Environment.Name}</h1>
+      </body>
+    </html>
