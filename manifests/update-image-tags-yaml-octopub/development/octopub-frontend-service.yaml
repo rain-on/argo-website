@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: octopub-frontend-cluster-ip
 spec:
-  type: ClusterIP
+  type: LoadBalancer
   selector:
     component: web
   ports:
