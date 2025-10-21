@@ -5,7 +5,7 @@ metadata:
     app: nginx
   name: nginx-svc
   annotations:
-    service.beta.kubernetes.io/azure-dns-label-name: od-webinar-production
+    service.beta.kubernetes.io/azure-dns-label-name: od-nginx-development
 spec:
   type: LoadBalancer
   ports:
