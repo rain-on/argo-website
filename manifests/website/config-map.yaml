@@ -6,7 +6,7 @@ data:
   index.html: |
     <!DOCTYPE html>
     <html>
-      <body style="background-color: #F00">
+      <body style="background-color: #FFF">
         <h1>I've been deployed Development</h1>
       </body>
     </html>
